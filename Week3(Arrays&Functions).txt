@@ -1,0 +1,55 @@
+Arrays
+
+var customerNames = [];
+customerNames.push('Sam smith')
+customerNames.push('Mark')
+
+for (i=0;i<customerNames;i++{
+console.log(customerNames[i])
+}
+
+SAME WAY OF for LOOP
+for (name of customerNames){
+console.log(name)
+}
+
+Functions 
+
+function createFullName(firstName,lastName)  ----> PARAMETERS
+{
+console.log(firstName+' '+lastName);
+//return (firstName+" "+lastName);  ---> ALSO INSTEAD ON PRINT IT OUT IN THR FUNCTION WE CAN USE RETURN
+}
+
+createFullName("Tom","Sawyer")----> ARGUMENTS
+var fullName= createFullName("Tom","Sawyer")
+console.log(fullName);
+
+Map (CALL UP THE FUNCTION FOR EACH ELEMNT IN TH ARRAY )
+let names =["Sam","Tyler","Sally"]
+let lengths= names.map(function(element){
+return element.length;
+}}
+console.log(lenghts);
+Reduce
+let sum= lengths.reduce(function(accumulator,currentValue){  ---> accumalate all the variables together
+return accumulator+ currentValue;
+});
+console.log(sum);
+For Each
+names.forEach(function(element) {
+console.log(element);
+});
+Filter 
+let even = names.filter(function(element){
+return element.length %2 ==0;
+});
+console.log(evens);
+Splice
+let removedElement = names.splice(1,1);----> remove one names in thr array position one
+console.log(removedElement);
+
+
+
+
+

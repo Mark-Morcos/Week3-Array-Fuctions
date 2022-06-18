@@ -1,0 +1,53 @@
+1-
+function isBlue(a){
+   let x= a.toLowerCase() 
+    if (x == 'blue'){
+        return true;
+    }else {
+        return false;
+    }
+    
+}
+   2-
+function sumOfTwo(a,b){
+    return a+b;
+
+3-
+
+function loopUntilX(x){
+    for(let i=0; i<x ;i++){
+        console.log(i)
+    }
+    return true;
+}
+
+4-
+
+function findCircumference(a){
+    let x= a * Math.PI * 2;
+    return x;
+}
+
+5-
+
+function checkout(cardBalance,price){
+    if (price>cardBalance){
+        return false;
+        
+    }else {return (cardBalance-price)
+    }
+}
+
+6-
+function returnSum(num1,num2,num3){
+return (num1+num2+num3);
+}
+
+7-
+function speakFriend(a){
+    if (a == "Mellon"){
+        return ("Enter")
+}else { return "Access Denied"
+}}
+	
+

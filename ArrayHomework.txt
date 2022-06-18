@@ -1,0 +1,20 @@
+1-var groceryList=["granola","milk","eggs"];
+
+2-    grads.push("Mary", "Steven", "Eddie")
+    let desend = grads.sort().reverse()
+    return desend;
+}
+
+3-let custNames= [];
+function printArray(custNames){
+    for (var names of custNames){
+        console.log (names)
+    }
+    
+    }
+	
+4-let x=[];
+function reverseArray(x){
+    let y=x.reverse();
+    return y;
+}
